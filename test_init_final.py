@@ -3380,7 +3380,7 @@ class mainCog(commands.Cog):
 			elif len_input_money_data == 2:
 				tax = input_money_data[1]
 			else:
-				tax = 5
+				tax = 18
 
 			price_first_tax = int(input_money_data[0] * ((100-tax)/100))
 			price_second_tax = int(price_first_tax * ((100-tax)/100))
